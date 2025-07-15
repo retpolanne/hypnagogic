@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		359081F92E2705D900DD3924 /* libhypnagogic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 359081F82E2705BC00DD3924 /* libhypnagogic.a */; };
+		359082012E27062500DD3924 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 359081FD2E27062500DD3924 /* .gitignore */; };
+		359082022E27062500DD3924 /* hypnagogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359081FB2E27062500DD3924 /* hypnagogic.swift */; };
+		359082032E27062500DD3924 /* SwiftBridgeCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359081FF2E27062500DD3924 /* SwiftBridgeCore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		359081D92E27012F00DD3924 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 359081C22E27012E00DD3924 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 359081C92E27012E00DD3924;
+			remoteInfo = Hypnagogic;
+		};
+		359081E32E27012F00DD3924 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 359081C22E27012E00DD3924 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 359081C92E27012E00DD3924;
+			remoteInfo = Hypnagogic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		359081CA2E27012E00DD3924 /* Hypnagogic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hypnagogic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		359081D82E27012F00DD3924 /* HypnagogicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HypnagogicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		359081E22E27012F00DD3924 /* HypnagogicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HypnagogicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		359081F62E27027C00DD3924 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		359081F82E2705BC00DD3924 /* libhypnagogic.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libhypnagogic.a; path = ../target/universal/debug/libhypnagogic.a; sourceTree = "<group>"; };
+		359081FA2E27062500DD3924 /* hypnagogic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hypnagogic.h; sourceTree = "<group>"; };
+		359081FB2E27062500DD3924 /* hypnagogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hypnagogic.swift; sourceTree = "<group>"; };
+		359081FD2E27062500DD3924 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		359081FE2E27062500DD3924 /* SwiftBridgeCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftBridgeCore.h; sourceTree = "<group>"; };
+		359081FF2E27062500DD3924 /* SwiftBridgeCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBridgeCore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		359081CC2E27012E00DD3924 /* Hypnagogic */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Hypnagogic;
+			sourceTree = "<group>";
+		};
+		359081DB2E27012F00DD3924 /* HypnagogicTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HypnagogicTests;
+			sourceTree = "<group>";
+		};
+		359081E52E27012F00DD3924 /* HypnagogicUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HypnagogicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		359081C72E27012E00DD3924 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359081F92E2705D900DD3924 /* libhypnagogic.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		359081D52E27012F00DD3924 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		359081DF2E27012F00DD3924 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		359081C12E27012E00DD3924 = {
+			isa = PBXGroup;
+			children = (
+				359082002E27062500DD3924 /* Generated */,
+				359081F62E27027C00DD3924 /* BridgingHeader.h */,
+				359081CC2E27012E00DD3924 /* Hypnagogic */,
+				359081DB2E27012F00DD3924 /* HypnagogicTests */,
+				359081E52E27012F00DD3924 /* HypnagogicUITests */,
+				359081F72E2705BC00DD3924 /* Frameworks */,
+				359081CB2E27012E00DD3924 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		359081CB2E27012E00DD3924 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				359081CA2E27012E00DD3924 /* Hypnagogic.app */,
+				359081D82E27012F00DD3924 /* HypnagogicTests.xctest */,
+				359081E22E27012F00DD3924 /* HypnagogicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		359081F72E2705BC00DD3924 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				359081F82E2705BC00DD3924 /* libhypnagogic.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		359081FC2E27062500DD3924 /* hypnagogic */ = {
+			isa = PBXGroup;
+			children = (
+				359081FA2E27062500DD3924 /* hypnagogic.h */,
+				359081FB2E27062500DD3924 /* hypnagogic.swift */,
+			);
+			path = hypnagogic;
+			sourceTree = "<group>";
+		};
+		359082002E27062500DD3924 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				359081FC2E27062500DD3924 /* hypnagogic */,
+				359081FD2E27062500DD3924 /* .gitignore */,
+				359081FE2E27062500DD3924 /* SwiftBridgeCore.h */,
+				359081FF2E27062500DD3924 /* SwiftBridgeCore.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		359081C92E27012E00DD3924 /* Hypnagogic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 359081EC2E27012F00DD3924 /* Build configuration list for PBXNativeTarget "Hypnagogic" */;
+			buildPhases = (
+				359081F52E27020500DD3924 /* ShellScript */,
+				359081C62E27012E00DD3924 /* Sources */,
+				359081C72E27012E00DD3924 /* Frameworks */,
+				359081C82E27012E00DD3924 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				359081CC2E27012E00DD3924 /* Hypnagogic */,
+			);
+			name = Hypnagogic;
+			packageProductDependencies = (
+			);
+			productName = Hypnagogic;
+			productReference = 359081CA2E27012E00DD3924 /* Hypnagogic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		359081D72E27012F00DD3924 /* HypnagogicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 359081EF2E27012F00DD3924 /* Build configuration list for PBXNativeTarget "HypnagogicTests" */;
+			buildPhases = (
+				359081D42E27012F00DD3924 /* Sources */,
+				359081D52E27012F00DD3924 /* Frameworks */,
+				359081D62E27012F00DD3924 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				359081DA2E27012F00DD3924 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				359081DB2E27012F00DD3924 /* HypnagogicTests */,
+			);
+			name = HypnagogicTests;
+			packageProductDependencies = (
+			);
+			productName = HypnagogicTests;
+			productReference = 359081D82E27012F00DD3924 /* HypnagogicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		359081E12E27012F00DD3924 /* HypnagogicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 359081F22E27012F00DD3924 /* Build configuration list for PBXNativeTarget "HypnagogicUITests" */;
+			buildPhases = (
+				359081DE2E27012F00DD3924 /* Sources */,
+				359081DF2E27012F00DD3924 /* Frameworks */,
+				359081E02E27012F00DD3924 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				359081E42E27012F00DD3924 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				359081E52E27012F00DD3924 /* HypnagogicUITests */,
+			);
+			name = HypnagogicUITests;
+			packageProductDependencies = (
+			);
+			productName = HypnagogicUITests;
+			productReference = 359081E22E27012F00DD3924 /* HypnagogicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		359081C22E27012E00DD3924 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					359081C92E27012E00DD3924 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					359081D72E27012F00DD3924 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 359081C92E27012E00DD3924;
+					};
+					359081E12E27012F00DD3924 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 359081C92E27012E00DD3924;
+					};
+				};
+			};
+			buildConfigurationList = 359081C52E27012E00DD3924 /* Build configuration list for PBXProject "Hypnagogic" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 359081C12E27012E00DD3924;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 359081CB2E27012E00DD3924 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				359081C92E27012E00DD3924 /* Hypnagogic */,
+				359081D72E27012F00DD3924 /* HypnagogicTests */,
+				359081E12E27012F00DD3924 /* HypnagogicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		359081C82E27012E00DD3924 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359082012E27062500DD3924 /* .gitignore in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		359081D62E27012F00DD3924 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		359081E02E27012F00DD3924 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		359081F52E27020500DD3924 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n./build-rust.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		359081C62E27012E00DD3924 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359082022E27062500DD3924 /* hypnagogic.swift in Sources */,
+				359082032E27062500DD3924 /* SwiftBridgeCore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		359081D42E27012F00DD3924 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		359081DE2E27012F00DD3924 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		359081DA2E27012F00DD3924 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 359081C92E27012E00DD3924 /* Hypnagogic */;
+			targetProxy = 359081D92E27012F00DD3924 /* PBXContainerItemProxy */;
+		};
+		359081E42E27012F00DD3924 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 359081C92E27012E00DD3924 /* Hypnagogic */;
+			targetProxy = 359081E32E27012F00DD3924 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		359081EA2E27012F00DD3924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = RA68HHYAYY;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		359081EB2E27012F00DD3924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = RA68HHYAYY;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		359081ED2E27012F00DD3924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Hypnagogic/Hypnagogic.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RA68HHYAYY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Hypnagogic;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "$(PROJECT_DIR)/../target/universal/debug";
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.retpolanne.Hypnagogic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/BridgingHeader.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Debug;
+		};
+		359081EE2E27012F00DD3924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Hypnagogic/Hypnagogic.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RA68HHYAYY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Hypnagogic;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "$(PROJECT_DIR)/../target/universal/release";
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.retpolanne.Hypnagogic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/BridgingHeader.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Release;
+		};
+		359081F02E27012F00DD3924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RA68HHYAYY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.retpolanne.HypnagogicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hypnagogic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hypnagogic";
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Debug;
+		};
+		359081F12E27012F00DD3924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RA68HHYAYY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.retpolanne.HypnagogicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hypnagogic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hypnagogic";
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Release;
+		};
+		359081F32E27012F00DD3924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RA68HHYAYY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.retpolanne.HypnagogicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = Hypnagogic;
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Debug;
+		};
+		359081F42E27012F00DD3924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RA68HHYAYY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.retpolanne.HypnagogicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = Hypnagogic;
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		359081C52E27012E00DD3924 /* Build configuration list for PBXProject "Hypnagogic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				359081EA2E27012F00DD3924 /* Debug */,
+				359081EB2E27012F00DD3924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		359081EC2E27012F00DD3924 /* Build configuration list for PBXNativeTarget "Hypnagogic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				359081ED2E27012F00DD3924 /* Debug */,
+				359081EE2E27012F00DD3924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		359081EF2E27012F00DD3924 /* Build configuration list for PBXNativeTarget "HypnagogicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				359081F02E27012F00DD3924 /* Debug */,
+				359081F12E27012F00DD3924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		359081F22E27012F00DD3924 /* Build configuration list for PBXNativeTarget "HypnagogicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				359081F32E27012F00DD3924 /* Debug */,
+				359081F42E27012F00DD3924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 359081C22E27012E00DD3924 /* Project object */;
+}
