@@ -11,6 +11,14 @@ Ensure you have Rust installed (through [rustup](https://rustup.rs)) and run:
 ./setup-env.sh
 ```
 
+## Goals
+
+- [ ] Build the camera app – we can use code from [Apple's Sample Apps](https://developer.apple.com/tutorials/sample-apps/capturingphotos-captureandsave) to achieve this.
+
+- [ ] Read [this guide](https://developer.apple.com/documentation/avfoundation/capturing-depth-using-the-lidar-camera) to understand how to use AVFoundation for playing with the LiDAR Depth Camera.
+
+- [ ] Understand how [Nannou](https://www.guide.nannou.cc/tutorials/basics/anatomy-of-a-nannou-app) works. May need to use the Nannou lib instead.
+
 ## External references
 
 [Xcode + Cargo interop - swift-bridge book](https://chinedufn.github.io/swift-bridge/building/xcode-and-cargo/index.html)
